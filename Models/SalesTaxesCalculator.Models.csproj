@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Enum\**" />
+    <Compile Remove="Interface\**" />
+    <EmbeddedResource Remove="Enum\**" />
+    <EmbeddedResource Remove="Interface\**" />
+    <None Remove="Enum\**" />
+    <None Remove="Interface\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Entities\Invoice\ITaxe.cs" />
+    <Compile Remove="InvoiceCalculator.cs" />
+    <Compile Remove="ItemCalculator.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RessourceFile\SalesTaxesCalculator.RessourceFile.csproj" />
+    <ProjectReference Include="..\SalesTaxesCalculator.Interface\SalesTaxesCalculator.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

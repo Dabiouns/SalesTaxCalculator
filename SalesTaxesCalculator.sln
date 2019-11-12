@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesTaxesCalculator", "SalesTaxesCalculator\SalesTaxesCalculator.csproj", "{1E2F1409-8CAE-47D9-BC40-247594CD7DAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesTaxesCalculator.Models", "Models\SalesTaxesCalculator.Models.csproj", "{6EFD1A2D-05F6-4294-A318-2BF428031765}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{5BEA6519-BB72-47B6-822C-C7ABD00CF774}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{441CC3B0-6074-44DA-B0A3-63ACB0F0B8DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesTaxesCalculator.Modelisation", "SalesTaxesCalculator.Modelisation\SalesTaxesCalculator.Modelisation.csproj", "{C1CAF68D-A874-454F-94D7-9DD07EB9B553}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesTaxesCalculator.RessourceFile", "RessourceFile\SalesTaxesCalculator.RessourceFile.csproj", "{C7E66645-5EFA-4A72-A27F-C6B44BA7CFDF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesTaxesCalculator.Implementation", "SalesTaxesCalculator.Implementation\SalesTaxesCalculator.Implementation.csproj", "{913495B4-E32C-499A-A5BE-187624318A19}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesTaxesCalculator.Interface", "SalesTaxesCalculator.Interface\SalesTaxesCalculator.Interface.csproj", "{61E9334D-12DE-48FF-AFA4-99299B5FE12B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesTaxesCalculator.Enum", "SalesTaxesCalculator.Enum\SalesTaxesCalculator.Enum.csproj", "{A027DB7B-52E4-404D-8A2E-3F8AC415E513}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesTaxesCalculator.Generator", "SalesTaxesCalculator.Generator\SalesTaxesCalculator.Generator.csproj", "{4C63A863-A5D4-4145-A455-CB67E9E72003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesTaxesCalculatir.XUnitTestProject", "SalesTaxesCalculatir.XUnitTestProject\SalesTaxesCalculatir.XUnitTestProject.csproj", "{B688789C-941E-431E-BCFB-650123F876CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E2F1409-8CAE-47D9-BC40-247594CD7DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E2F1409-8CAE-47D9-BC40-247594CD7DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E2F1409-8CAE-47D9-BC40-247594CD7DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E2F1409-8CAE-47D9-BC40-247594CD7DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EFD1A2D-05F6-4294-A318-2BF428031765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EFD1A2D-05F6-4294-A318-2BF428031765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EFD1A2D-05F6-4294-A318-2BF428031765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EFD1A2D-05F6-4294-A318-2BF428031765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1CAF68D-A874-454F-94D7-9DD07EB9B553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1CAF68D-A874-454F-94D7-9DD07EB9B553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1CAF68D-A874-454F-94D7-9DD07EB9B553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1CAF68D-A874-454F-94D7-9DD07EB9B553}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7E66645-5EFA-4A72-A27F-C6B44BA7CFDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E66645-5EFA-4A72-A27F-C6B44BA7CFDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E66645-5EFA-4A72-A27F-C6B44BA7CFDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E66645-5EFA-4A72-A27F-C6B44BA7CFDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{913495B4-E32C-499A-A5BE-187624318A19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{913495B4-E32C-499A-A5BE-187624318A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{913495B4-E32C-499A-A5BE-187624318A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{913495B4-E32C-499A-A5BE-187624318A19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61E9334D-12DE-48FF-AFA4-99299B5FE12B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61E9334D-12DE-48FF-AFA4-99299B5FE12B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61E9334D-12DE-48FF-AFA4-99299B5FE12B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61E9334D-12DE-48FF-AFA4-99299B5FE12B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A027DB7B-52E4-404D-8A2E-3F8AC415E513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A027DB7B-52E4-404D-8A2E-3F8AC415E513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A027DB7B-52E4-404D-8A2E-3F8AC415E513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A027DB7B-52E4-404D-8A2E-3F8AC415E513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C63A863-A5D4-4145-A455-CB67E9E72003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C63A863-A5D4-4145-A455-CB67E9E72003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C63A863-A5D4-4145-A455-CB67E9E72003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C63A863-A5D4-4145-A455-CB67E9E72003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B688789C-941E-431E-BCFB-650123F876CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B688789C-941E-431E-BCFB-650123F876CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B688789C-941E-431E-BCFB-650123F876CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B688789C-941E-431E-BCFB-650123F876CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1E2F1409-8CAE-47D9-BC40-247594CD7DAB} = {441CC3B0-6074-44DA-B0A3-63ACB0F0B8DD}
+		{6EFD1A2D-05F6-4294-A318-2BF428031765} = {5BEA6519-BB72-47B6-822C-C7ABD00CF774}
+		{4C63A863-A5D4-4145-A455-CB67E9E72003} = {441CC3B0-6074-44DA-B0A3-63ACB0F0B8DD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4696A879-A911-4686-A98B-1CC14FC8FA4B}
+	EndGlobalSection
+EndGlobal

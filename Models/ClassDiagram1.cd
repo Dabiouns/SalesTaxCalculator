@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SalesTaxesCalculator.Models.Entities.Invoice.Invoice" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Invoice\Invoice.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SalesTaxesCalculator.Models.Entities.Invoice.Item" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAACCAAEAAAgAAFAAAAAAAAQAAACAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Entities\Invoice\Item.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SalesTaxesCalculator.Models.Entities.Invoice.Rebates" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Invoice\Rebates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalesTaxesCalculator.Models.Entities.Taxe" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAgAAAAAAEAIAAAAAAAAgAIAAAAAAAAQAAEAA=</HashCode>
+      <FileName>Entities\Invoice\Taxe.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SalesTaxesCalculator.Models.Entities.BaseEntity" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\BaseEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalesTaxesCalculator.Models.Entities.Description" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAACAAAAQAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Entities\Description.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Enum Name="SalesTaxesCalculator.Models.Entities.Invoice.RebatesType" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Entities\Invoice\Rebates.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Models\SalesTaxesCalculator.Models.csproj" />
+    <ProjectReference Include="..\SalesTaxesCalculator.Implementation\SalesTaxesCalculator.Implementation.csproj" />
+    <ProjectReference Include="..\SalesTaxesCalculator.Interface\SalesTaxesCalculator.Interface.csproj" />
+  </ItemGroup>
+
+</Project>
