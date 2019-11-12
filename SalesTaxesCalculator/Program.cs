@@ -1,6 +1,5 @@
 ﻿using SalesTaxesCalculator.Interface;
 using System;
-using SalesTaxesCalculator.Invoice.Implementation;
 
 namespace SalesTaxesCalculator
 {
@@ -8,21 +7,19 @@ namespace SalesTaxesCalculator
     {
         static void Main(string[] args)
         {
-            IInvoice invoiceInput1 = InvoiceGenerator.GetInvoice1();
-            InvoiceCalculator invoiceCalculator = new InvoiceCalculator();
-            invoiceCalculator.CreateTaxes(invoiceInput1);
-            invoiceCalculator.ApplyTaxes(invoiceInput1);
-            Console.Write(invoiceCalculator.PrintReceipt(invoiceInput1));
+            InvoiceService invoiceService = new InvoiceService();
+            IInvoice invoiceInput1 = invoiceService.GetInput1();
+     
+            Console.Write(invoiceService.PrintReceipt(invoiceInput1));
 
-            IInvoice invoiceInput2 = InvoiceGenerator.GetInvoice2();
-            invoiceCalculator.CreateTaxes(invoiceInput2);
-            invoiceCalculator.ApplyTaxes(invoiceInput2);
-            Console.Write(invoiceCalculator.PrintReceipt(invoiceInput2));
+         
+            IInvoice invoiceInput2 = invoiceService.GetInput2();
+            Console.Write(invoiceService.PrintReceipt(invoiceInput2));
 
-            IInvoice invoiceInput3 = InvoiceGenerator.GetInvoice3();
-            invoiceCalculator.CreateTaxes(invoiceInput3);
-            invoiceCalculator.ApplyTaxes(invoiceInput3);
-            Console.Write(invoiceCalculator.PrintReceipt(invoiceInput3));
+
+            IInvoice invoiceInput3 = invoiceService.GetInput3();
+           
+            Console.Write(invoiceService.PrintReceipt(invoiceInput3));
         }
     }
 }

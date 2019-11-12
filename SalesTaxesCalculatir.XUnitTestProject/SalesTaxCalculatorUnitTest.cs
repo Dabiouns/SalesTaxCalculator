@@ -11,11 +11,8 @@ namespace SalesTaxesCalculatir.XUnitTestProject
         [Fact]
         public void TestInput1()
         {
-            IInvoice invoiceInput1 = InvoiceGenerator.GetInvoice1();
-            InvoiceCalculator invoiceCalculator = new InvoiceCalculator();
-            invoiceCalculator.CreateTaxes(invoiceInput1);
-            invoiceCalculator.ApplyTaxes(invoiceInput1);
-
+            IInvoice invoiceInput1 = new InvoiceService().GetInput1();
+            
             var expectedTaxTotal = 1.50;
             var expectedTotal = 29.83;
 
@@ -28,11 +25,7 @@ namespace SalesTaxesCalculatir.XUnitTestProject
         [Fact]
         public void TestInput2()
         {
-            IInvoice invoiceInput2 = InvoiceGenerator.GetInvoice2();
-            InvoiceCalculator invoiceCalculator = new InvoiceCalculator();
-            invoiceCalculator.CreateTaxes(invoiceInput2);
-            invoiceCalculator.ApplyTaxes(invoiceInput2);
-            Console.Write(invoiceCalculator.PrintReceipt(invoiceInput2));
+            IInvoice invoiceInput2 = new InvoiceService().GetInput2();
 
             var expectedTaxTotal =  7.65;
             var expectedTotal = 65.15;
@@ -46,12 +39,7 @@ namespace SalesTaxesCalculatir.XUnitTestProject
         [Fact]
         public void TestInput3()
         {
-
-            IInvoice invoiceInput3 = InvoiceGenerator.GetInvoice3();
-            InvoiceCalculator invoiceCalculator = new InvoiceCalculator();
-            invoiceCalculator.CreateTaxes(invoiceInput3);
-            invoiceCalculator.ApplyTaxes(invoiceInput3);
-            Console.Write(invoiceCalculator.PrintReceipt(invoiceInput3));
+            IInvoice invoiceInput3 = new InvoiceService().GetInput3();
 
             var expectedTaxTotal = 6.70;
             var expectedTotal = 74.68;
